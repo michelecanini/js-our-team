@@ -58,7 +58,7 @@ for (let i = 0; i < teamMember.length; i++){
     let member = teamMember[i];
 
     // SINGOLA CARD DEL DOM CON LE INFORMAZIONI DEL SINGOLO MEMBRO
-    let card = `<div class="cards">
+    let card = `<div class="card">
         <p>${member.name}</p>
         <p>${member.role}</p>
         <p>${member.image}</p>
