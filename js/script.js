@@ -59,9 +59,9 @@ for (let i = 0; i < teamMember.length; i++){
 
     // SINGOLA CARD DEL DOM CON LE INFORMAZIONI DEL SINGOLO MEMBRO
     let card = `<div class="card">
+        <img src="./img/${member.image}"></img>
         <p>${member.name}</p>
         <p>${member.role}</p>
-        <p>${member.image}</p>
     </div>`
 
     //CONCATENAZIONE HTML DELLA NUOVA CARD

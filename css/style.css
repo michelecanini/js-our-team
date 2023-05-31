@@ -6,3 +6,7 @@ GENERAL SETTING
     margin: 0;
     box-sizing: border-box;
 }
+
+#cards{
+    border: 2px solid black;
+}
