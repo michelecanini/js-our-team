@@ -51,4 +51,11 @@ for (let key in teamMember) {
 // CONTENITORE DELLE SCHEDE NEL DOM
 const cards = document.getElementById("cards");
 
+// CICLO FOR PER L'ARRAY MEMBRI DEL TEAM
+for (let i = 0; i < teamMember.length; i++){
+
+    //VARIABILE PER SALVARE IL SINGOLO MEMBRO DEL TEAM INTERNA AL CICLO
+    let member = teamMember[i];
+
+}
 
