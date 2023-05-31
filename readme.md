@@ -7,7 +7,8 @@
     2. creazione dell'array con i dati forniti
 
 ### MILESTONE 1: Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
-    1.  creare un console.log per ogni membro del team con le informazioni
+    1.  creare un ciclo for in per stampare le info
+    2.  creare un console.log nel ciclo con la key
 
 ### MILESTONE 2: Stampare le stesse informazioni su DOM sottoforma di stringhe
     1. creare dei contenitori nel dom
