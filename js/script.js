@@ -60,8 +60,8 @@ for (let i = 0; i < teamMember.length; i++){
     // SINGOLA CARD DEL DOM CON LE INFORMAZIONI DEL SINGOLO MEMBRO
     let card = `<div class="card">
         <img src="./img/${member.image}"></img>
-        <p>${member.name}</p>
-        <p>${member.role}</p>
+        <h2>${member.name}</h2>
+        <h4>${member.role}</h4>
     </div>`
 
     //CONCATENAZIONE HTML DELLA NUOVA CARD
@@ -75,5 +75,6 @@ document.getElementById("cards").style.textAlign = "center";
 document.getElementById("cards").style.flexWrap = "wrap";
 document.getElementById("cards").style.justifyContent = "center";
 document.getElementById("cards").style.gap = "20px";
-document.getElementById("cards").style.marginTop = "50px";
+document.getElementById("cards").style.marginTop = "70px";
+document.getElementById("cards").style.marginBottom = "70px";
 document.getElementById("cards").style.rowGap = "50px";

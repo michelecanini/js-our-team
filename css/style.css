@@ -7,6 +7,10 @@ GENERAL SETTING
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Doppio One', sans-serif;
+}
+
 h1, span{
     text-align: center;
     margin-top: 20px;
