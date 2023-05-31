@@ -75,8 +75,5 @@ document.getElementById("cards").style.textAlign = "center";
 document.getElementById("cards").style.flexWrap = "wrap";
 document.getElementById("cards").style.justifyContent = "center";
 document.getElementById("cards").style.gap = "20px";
-
-
-
-
-
+document.getElementById("cards").style.marginTop = "50px";
+document.getElementById("cards").style.rowGap = "50px";

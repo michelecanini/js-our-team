@@ -7,6 +7,11 @@ GENERAL SETTING
     box-sizing: border-box;
 }
 
-h1, p{
+h1, span{
     text-align: center;
+    margin-top: 20px;
+}
+
+span{
+    display: block;
 }
