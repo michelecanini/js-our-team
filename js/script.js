@@ -40,4 +40,4 @@ let teamMember = [
         image: "barbara-ramos-graphic-designer.jpg"
     }
 ]
- 
+console.log(teamMember);
