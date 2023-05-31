@@ -7,6 +7,6 @@ GENERAL SETTING
     box-sizing: border-box;
 }
 
-#cards{
-    border: 2px solid black;
+h1, p{
+    text-align: center;
 }

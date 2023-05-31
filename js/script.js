@@ -67,3 +67,16 @@ for (let i = 0; i < teamMember.length; i++){
     //CONCATENAZIONE HTML DELLA NUOVA CARD
     cards.innerHTML += card;
 }
+
+//STYLE CSS CARDS
+document.getElementById("cards").style.display = "flex";
+document.getElementById("cards").style.flexDirection = "row";
+document.getElementById("cards").style.textAlign = "center";
+document.getElementById("cards").style.flexWrap = "wrap";
+document.getElementById("cards").style.justifyContent = "center";
+document.getElementById("cards").style.gap = "20px";
+
+
+
+
+
