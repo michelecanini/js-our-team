@@ -40,4 +40,10 @@ let teamMember = [
         image: "barbara-ramos-graphic-designer.jpg"
     }
 ]
-console.log(teamMember);
+ 
+// LOGICA DEL PROGRAMMA
+
+// CICLO FOR - IN, PER STAMPARE IN CONSOLE LOG LE INFORMAZIONI DI OGNI MEMBRO
+for (let key in teamMember) {
+    console.log(teamMember[key].name + " " + teamMember[key].role + " " + teamMember[key].image);
+}
