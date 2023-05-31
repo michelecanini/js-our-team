@@ -7,7 +7,7 @@
 
 // DICHIARAZIONE DELLE VARIABILI
 
-// VARIABILE DELL'ARRAY MEMBRI DEL TEAM
+// VARIABILE DELL'ARRAY MEMBRI DEL TEAM CON GLI OBJECT ALL'INTERNO
 let teamMember = [
     {
         name: "Wayne Barnett",
@@ -47,3 +47,8 @@ let teamMember = [
 for (let key in teamMember) {
     console.log(teamMember[key].name + " " + teamMember[key].role + " " + teamMember[key].image);
 }
+
+// CONTENITORE DELLE SCHEDE NEL DOM
+const cards = document.getElementById("cards");
+
+
