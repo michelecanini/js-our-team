@@ -57,5 +57,13 @@ for (let i = 0; i < teamMember.length; i++){
     //VARIABILE PER SALVARE IL SINGOLO MEMBRO DEL TEAM INTERNA AL CICLO
     let member = teamMember[i];
 
-}
+    // SINGOLA CARD DEL DOM CON LE INFORMAZIONI DEL SINGOLO MEMBRO
+    let card = `<div class="cards">
+        <p>${member.name}</p>
+        <p>${member.role}</p>
+        <p>${member.image}</p>
+    </div>`
 
+    //CONCATENAZIONE HTML DELLA NUOVA CARD
+    cards.innerHTML += card;
+}
