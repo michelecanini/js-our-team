@@ -15,3 +15,7 @@
     2. collegare i contenitori a js
     3. creazione di un ciclo per salvare gli elementi
     4. invio elementi al dom
+
+### BONUS
+    1. rendere le stinghe delle immagini effettive
+    2. stilizzare le card in html e css
